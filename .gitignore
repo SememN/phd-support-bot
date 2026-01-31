@@ -2,9 +2,6 @@
 venv/
 .venv/
 
-# Environment variables
-.env
-
 # Sensitive data
 bot/data.json
 old_credentials.txt
