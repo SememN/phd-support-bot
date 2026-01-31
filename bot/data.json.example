@@ -1,0 +1,7 @@
+{
+  "articles": {},
+  "admin_password": "CHANGE_ME",
+  "thanks_message": "Благодарим вас за покупку! Мы будем вам очень признательны, если вы оставите свой отзыв на платформе.",
+  "bot_token": "YOUR_BOT_TOKEN_HERE",
+  "support_chat": 0
+}

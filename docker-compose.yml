@@ -1,0 +1,8 @@
+services:
+  myapp3:
+    build:
+      context: ./bot
+    ports:
+      - "5007:5007"  
+    restart: always
+
