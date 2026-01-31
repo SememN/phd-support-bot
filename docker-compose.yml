@@ -2,7 +2,8 @@ services:
   myapp3:
     build:
       context: ./bot
+    volumes:
+      - ./bot/data.json:/app/data.json
     ports:
-      - "5007:5007"  
+      - "5007:5007"
     restart: always
-
