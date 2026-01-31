@@ -13,8 +13,8 @@ DATA_FILE = os.path.join(os.path.dirname(__file__), 'data.json')
 DEFAULT_DATA = {
     "bot_token": "",
     "support_chat": 0,
-    "admin_password": "almaris2024",
-    "thanks_message": "Благодарим вас за покупку! С уважением, команда бренда ALMARIS❤️",
+    "admin_password": "admin123",
+    "thanks_message": "Благодарим вас за покупку!",
     "instruction": {
         "file_id": None,
         "text": None
@@ -67,7 +67,7 @@ def set_support_chat(chat_id: int) -> bool:
 def get_admin_password() -> str:
     """Возвращает пароль администратора."""
     data = load_data()
-    return data.get("admin_password", "almaris2024")
+    return data.get("admin_password", "admin123")
 
 
 def get_thanks_message() -> str:
